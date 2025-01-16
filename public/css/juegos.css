@@ -1,0 +1,167 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+@media (max-width: 374px) {
+main{
+	position:relative;
+	width:100%;
+	height:100vh;
+}iframe{
+	width:100%;
+	height:100%;
+}.menu{
+	position:relative;
+	border-radius:0 !important;
+	cursor:pointer;
+	font-size:1rem;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+	width:100% !important;
+	background:rgb(230, 192, 12);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:.6rem 0;
+}
+}
+/* Móviles medianos (375px - 414px) */
+@media (min-width: 375px) and (max-width: 414px) {
+	/* Aquí van tus estilos específicos para móviles medianos */
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/*REDMI NOTE 13 PRO PLUS*/
+	main{
+	position:relative;
+	width:100%;
+	height:100vh;
+}iframe{
+	width:100%;
+	height:100%;
+}.menu{
+	position:relative;
+	border-radius:0 !important;
+	cursor:pointer;
+	font-size:1rem;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+	width:100% !important;
+	background:rgb(230, 192, 12);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:.6rem 0;
+}
+}
+/* Móviles grandes (415px - 599px)*/
+@media (min-width: 415px) and (max-width: 599px) {
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/*IPHONE 15 PRO MAX*/
+	main{
+	position:relative;
+	width:100%;
+	height:100vh;
+}iframe{
+	width:100%;
+	height:100%;
+}.menu{
+	position:relative;
+	border-radius:0 !important;
+	cursor:pointer;
+	font-size:1rem;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+	width:100% !important;
+	background:rgb(230, 192, 12);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:.6rem 0;
+}
+}
+
+/* Tabletas en orientación vertical (600px - 767px) */
+@media (min-width: 600px) and (max-width: 767px) {
+	/* Aquí van tus estilos específicos para tabletas en orientación vertical*/
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/*Esta no la trabajo*/
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+/* Aquí van tus estilos específicos para móviles grandes */
+main{
+	position:relative;
+	width:100%;
+	height:100vh;
+}iframe{
+	width:100%;
+	height:100%;
+}.menu{
+	position:absolute !important;
+	top:3px;
+	left:80px;
+	border-radius:20px;
+	padding:.7rem 5rem;
+	margin-bottom:.8rem;
+	cursor:pointer;
+	font-size:1.3rem;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+	width:auto;
+	background:rgb(230, 192, 12);
+}
+}
+
+/* Tabletas grandes o dispositivos pequeños de escritorio (1025px - 1279px) */
+@media (min-width: 1025px) and (max-width: 1279px) {
+	/* Aquí van tus estilos específicos para tabletas grandes o dispositivos pequeños de escritorio */
+/* styles.css */
+main{
+	position:relative;
+	width:100%;
+	height:100vh;
+}iframe{
+	width:100%;
+	height:100%;
+}.menu{
+	position:absolute !important;
+	top:3px;
+	left:80px;
+	border-radius:20px;
+	padding:.7rem 5rem;
+	margin-bottom:.8rem;
+	cursor:pointer;
+	font-size:1.3rem;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+	width:auto;
+	background:rgb(230, 192, 12);
+}
+}
+/* Dispositivos de pantalla grande (1280px en adelante) */
+@media (min-width: 1280px) {
+main{
+	position:relative;
+	width:100%;
+	height:100vh;
+}iframe{
+	width:100%;
+	height:100%;
+}.menu{
+	position:absolute !important;
+	top:3px;
+	left:80px;
+	border-radius:20px;
+	padding:.7rem 5rem;
+	margin-bottom:.8rem;
+	cursor:pointer;
+	font-size:1.3rem;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+	width:auto;
+	background:rgb(230, 192, 12);
+}
+}
+

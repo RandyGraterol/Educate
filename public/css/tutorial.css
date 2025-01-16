@@ -1,0 +1,308 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+body{
+	background:rgb(20,40,40);
+}
+@media (max-width: 374px) {
+	.principal{
+		position: relative;
+	width:100%;
+	height:100vh;
+}#image,#imagenSeparacion,#imagenSopa{
+	width:100% !important;
+	height:100% !important;
+	background-repeat: no-repeat;
+	background-position:center;
+object-fit:contain;
+
+}.botonera{
+	position:absolute;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	gap:1rem;
+	height:40vh;
+	width:100%;
+	z-index:1;
+}.buttonOption{
+	padding:.5rem 3rem;
+	border-radius: 20px;
+	background: rgb(244, 76, 102);
+	color:whitesmoke;
+	width:15%;
+	font-size:.7rem;
+	font-weight: bold;
+	transition:transform 1s ease-in-out;
+	cursor:pointer;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	border:2px solid grey;
+	box-shadow:0 10px 30px rgba(0,0,0,.8);
+}.buttonOption:hover{
+  transform:translateY(-5px);
+}.buttonOption:nth-child(1){
+ margin-left:2rem;
+}.buttonOption:nth-child(2){
+margin-right:2rem;	
+}
+}
+/* Móviles medianos (375px - 414px) */
+@media (min-width: 375px) and (max-width: 414px) {
+	/* Aquí van tus estilos específicos para móviles medianos */
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/*REDMI NOTE 13 PRO PLUS*/
+		.principal{
+		position: relative;
+	width:100%;
+	height:100vh;
+}#image,#imagenSeparacion,#imagenSopa{
+	width:100% !important;
+	height:100% !important;
+	background-repeat: no-repeat;
+	background-position:center;
+object-fit:contain;
+
+}.botonera{
+	position:absolute;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	gap:1rem;
+	height:40vh;
+	width:100%;
+	z-index:1;
+}.buttonOption{
+	padding:.5rem 3rem;
+	border-radius: 20px;
+	background: rgb(244, 76, 102);
+	color:whitesmoke;
+	width:15%;
+	font-size:.7rem;
+	font-weight: bold;
+	transition:transform 1s ease-in-out;
+	cursor:pointer;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	border:2px solid grey;
+	box-shadow:0 10px 30px rgba(0,0,0,.8);
+}.buttonOption:hover{
+  transform:translateY(-5px);
+}.buttonOption:nth-child(1){
+ margin-left:2rem;
+}.buttonOption:nth-child(2){
+margin-right:2rem;	
+}
+
+}
+/* Móviles grandes (415px - 599px)*/
+@media (min-width: 415px) and (max-width: 599px) {
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/*IPHONE 15 PRO MAX*/
+		.principal{
+		position: relative;
+	width:100%;
+	height:100vh;
+}#image,#imagenSeparacion,#imagenSopa{
+	width:100% !important;
+	height:100% !important;
+	background-repeat: no-repeat;
+	background-position:center;
+object-fit:contain;
+
+}.botonera{
+	position:absolute;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	gap:1rem;
+	height:40vh;
+	width:100%;
+	z-index:1;
+}.buttonOption{
+	padding:.5rem 3rem;
+	border-radius: 20px;
+	background: rgb(244, 76, 102);
+	color:whitesmoke;
+	width:15%;
+	font-size:.7rem;
+	font-weight: bold;
+	transition:transform 1s ease-in-out;
+	cursor:pointer;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	border:2px solid grey;
+	box-shadow:0 10px 30px rgba(0,0,0,.8);
+}.buttonOption:hover{
+  transform:translateY(-5px);
+}.buttonOption:nth-child(1){
+ margin-left:2rem;
+}.buttonOption:nth-child(2){
+margin-right:2rem;	
+}
+}
+
+/* Tabletas en orientación vertical (600px - 767px) */
+@media (min-width: 600px) and (max-width: 767px) {
+	/* Aquí van tus estilos específicos para tabletas en orientación vertical*/
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/*Esta no la trabajo*/
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+/* Aquí van tus estilos específicos para móviles grandes */
+	.principal{
+		position: relative;
+	width:100%;
+	height:100vh;
+}#image,#imagenSeparacion,#imagenSopa{
+	width:100% !important;
+	height:100% !important;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment: fixed;
+	background-size:cover;
+}.botonera{
+	position:absolute;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	gap:1rem;
+	height:40vh;
+	width:100%;
+	z-index:1;
+}.buttonOption{
+	padding:.5rem 3rem;
+	border-radius: 20px;
+	background: rgb(244, 76, 102);
+	color:whitesmoke;
+	width:15%;
+	font-size:1rem;
+	font-weight: bold;
+	transition:transform 1s ease-in-out;
+	cursor:pointer;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	border:2px solid grey;
+	box-shadow:0 10px 30px rgba(0,0,0,.8);
+}.buttonOption:hover{
+  transform:translateY(-5px);
+}.buttonOption:nth-child(1){
+ margin-left:2rem;
+}.buttonOption:nth-child(2){
+margin-right:2rem;	
+}
+}
+
+/* Tabletas grandes o dispositivos pequeños de escritorio (1025px - 1279px) */
+@media (min-width: 1025px) and (max-width: 1279px) {
+	/* Aquí van tus estilos específicos para tabletas grandes o dispositivos pequeños de escritorio */
+/* styles.css */
+	.principal{
+		position: relative;
+	width:100%;
+	height:100vh;
+}#image,#imagenSeparacion,#imagenSopa{
+	width:100% !important;
+	height:100% !important;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment: fixed;
+	background-size:cover;
+}.botonera{
+	position:absolute;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	gap:1rem;
+	height:40vh;
+	width:100%;
+	z-index:1;
+}.buttonOption{
+	padding:1rem 3rem;
+	border-radius: 20px;
+	background: rgb(244, 76, 102);
+	color:whitesmoke;
+	width:10%;
+	font-size:1.2rem;
+	font-weight: bold;
+	transition:transform 1s ease-in-out;
+	cursor:pointer;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	border:2px solid grey;
+	box-shadow:0 10px 30px rgba(0,0,0,.8);
+}.buttonOption:hover{
+  transform:translateY(-5px);
+}.buttonOption:nth-child(1){
+ margin-left:2rem;
+}.buttonOption:nth-child(2){
+margin-right:2rem;	
+}
+}
+/* Dispositivos de pantalla grande (1280px en adelante) */
+@media (min-width: 1280px) {
+	.principal{
+		position: relative;
+	width:100%;
+	height:100vh;
+}#image,#imagenSeparacion,#imagenSopa{
+	width:100% !important;
+	height:100% !important;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment: fixed;
+	background-size:cover;
+}.botonera{
+	position:absolute;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	gap:1rem;
+	height:40vh;
+	width:100%;
+	z-index:1;
+}.buttonOption{
+	padding:1rem 3rem;
+	border-radius: 20px;
+	background: rgb(244, 76, 102);
+	color:whitesmoke;
+	width:10%;
+	font-size:1.2rem;
+	font-weight: bold;
+	transition:transform 1s ease-in-out;
+	cursor:pointer;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	border:2px solid grey;
+	box-shadow:0 10px 30px rgba(0,0,0,.8);
+}.buttonOption:hover{
+  transform:translateY(-5px);
+}.buttonOption:nth-child(1){
+ margin-left:2rem;
+}.buttonOption:nth-child(2){
+margin-right:2rem;	
+}
+}
+

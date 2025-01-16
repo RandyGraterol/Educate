@@ -1,0 +1,490 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+@media (max-width: 374px) {
+	.principal{
+	background-image:url('/img/menu.avif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	gap:3rem;
+	width:100%;
+	height:100vh;
+}.regresar{
+	position:absolute;
+	top:0px;
+	left:0;
+	width:100%;
+	height:5vh;
+	font-size:1.2rem;
+	padding:.5rem 3rem;
+	background:rgb(78, 196, 198);
+	border: 2px solid grey;
+	color:whitesmoke;
+    cursor:pointer;
+    text-align: center;
+    transition:transform 1s ease-in-out;
+}.sectionMain{
+	position: relative;
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-end;
+	align-items: center;
+	border:3px solid grey;
+	width:20rem;
+	height:150px;
+	background:rgb(226, 231, 233);
+	backdrop-filter:blur(4px);
+	box-shadow:0 10px 40px rgba(0,0,0,.7);
+	border-radius:10px;
+}.sectionMain h2{
+width:70%;
+font-size:1.4rem;
+color:black;
+text-align: center;
+margin-bottom:1rem;
+}.imgIcon{
+	position:absolute;
+	top:-55px;
+	letf:50%;
+	width:100px;
+	height:90px;
+}.imgIco{
+	position:absolute;
+	top:-55px;
+	letf:50%;
+	width:100px;
+	height:110px;
+}.boton{
+	border-radius:20px;
+	padding:.4rem 2rem;
+	margin-bottom:1rem;
+	cursor:pointer;
+	border-radius:none;
+	color:whitesmoke;
+	font-size:.9rem;
+	font-weight: bold;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+}.boton1{
+	background:rgb(78, 196, 198);
+}.boton2{
+	background:rgb(129, 152, 201);
+}.boton3{
+	background:rgb(224,60,57);
+}
+}
+/* Móviles medianos (375px - 414px) */
+@media (min-width: 375px) and (max-width: 414px) {
+	/* Aquí van tus estilos específicos para móviles medianos */
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/*REDMI NOTE 13 PRO PLUS*/
+	.principal{
+	background-image:url('/img/menu.avif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	gap:3rem;
+	width:100%;
+	height:100vh;
+}.regresar{
+	position:absolute;
+	top:0px;
+	left:0;
+	width:100%;
+	height:5vh;
+	font-size:1.2rem;
+	padding:.5rem 3rem;
+	background:rgb(78, 196, 198);
+	border: 2px solid grey;
+	color:whitesmoke;
+    cursor:pointer;
+    text-align: center;
+    transition:transform 1s ease-in-out;
+}.sectionMain{
+	position: relative;
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-end;
+	align-items: center;
+	border:3px solid grey;
+	width:20rem;
+	height:170px;
+	background:rgb(226, 231, 233);
+	backdrop-filter:blur(4px);
+	box-shadow:0 10px 40px rgb(226, 231, 233);
+	border-radius:10px;
+}.sectionMain h2{
+width:70%;
+font-size:1.4rem;
+color:black;
+text-align: center;
+margin-bottom:1rem;
+}.imgIcon{
+	position:absolute;
+	top:-60px;
+	letf:50%;
+	width:120px;
+	height:105px;
+}.imgIco{
+	position:absolute;
+	top:-65px;
+	letf:50%;
+	width:120px;
+	height:130px;
+}.boton{
+	border-radius:20px;
+	padding:.4rem 2rem;
+	margin-bottom:1rem;
+	cursor:pointer;
+	border-radius:none;
+	color:whitesmoke;
+	font-size:1.2rem;
+	font-weight: bold;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+}.boton1{
+	background:rgb(78, 196, 198);
+}.boton2{
+	background:rgb(129, 152, 201);
+}.boton3{
+	background:rgb(224,60,57);
+}
+}
+/* Móviles grandes (415px - 599px)*/
+@media (min-width: 415px) and (max-width: 599px) {
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/*IPHONE 15 PRO MAX*/
+	.principal{
+	background-image:url('/img/menu.avif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	gap:4rem;
+	width:100%;
+	height:100vh;
+}.regresar{
+	position:absolute;
+	top:0px;
+	left:0;
+	width:100%;
+	height:5vh;
+	font-size:1.2rem;
+	padding:.5rem 3rem;
+	background:rgb(78, 196, 198);
+	border: 2px solid grey;
+	color:whitesmoke;
+    cursor:pointer;
+    text-align: center;
+    transition:transform 1s ease-in-out;
+}.sectionMain{
+	position: relative;
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-end;
+	align-items: center;
+	border:3px solid grey;
+	width:20rem;
+	height:170px;
+	background:rgb(226, 231, 233);
+	backdrop-filter:blur(4px);
+	box-shadow:0 10px 40px rgb(226, 231, 233);
+	border-radius:10px;
+}.sectionMain h2{
+width:70%;
+font-size:1.4rem;
+color:black;
+text-align: center;
+margin-bottom:1rem;
+}.imgIcon{
+	position:absolute;
+	top:-70px;
+	letf:50%;
+	width:150px;
+	height:130px;
+}.imgIco{
+	position:absolute;
+	top:-79px;
+	letf:50%;
+	width:150px;
+	height:160px;
+}.boton{
+	border-radius:20px;
+	padding:.4rem 2rem;
+	margin-bottom:1rem;
+	cursor:pointer;
+	border-radius:none;
+	color:whitesmoke;
+	font-size:1.2rem;
+	font-weight: bold;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+}.boton1{
+	background:rgb(78, 196, 198);
+}.boton2{
+	background:rgb(129, 152, 201);
+}.boton3{
+	background:rgb(224,60,57);
+}
+}
+
+/* Tabletas en orientación vertical (600px - 767px) */
+@media (min-width: 600px) and (max-width: 767px) {
+	/* Aquí van tus estilos específicos para tabletas en orientación vertical*/
+	/* Aquí van tus estilos específicos para móviles grandes */
+	/*Esta no la trabajo*/
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+/* Aquí van tus estilos específicos para móviles grandes */
+.principal{
+	background-image:url('/img/menu.avif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:2rem;
+	width:100%;
+	height:100vh;
+}.regresar{
+	position:absolute;
+	top:20px;
+	left:20px;
+	width:auto;height:auto;
+	font-size:1.2rem;padding:.5rem 3rem;background:rgb(78, 196, 198);
+	border-radius:20px;border: 2px solid grey;color:whitesmoke;
+    cursor:pointer;transition:transform 1s ease-in-out;
+}.sectionMain{
+	position: relative;
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-end;
+	align-items: center;
+	border:3px solid grey;
+	width:11rem;
+	height:220px;
+	border-radius:10px;
+	background:rgb(226, 231, 233);
+	backdrop-filter:blur(4px);
+	box-shadow:0 10px 40px rgb(226, 231, 233);
+}.sectionMain h2{
+width:70%;
+font-size:1.4rem;
+color:black;
+text-align: center;
+margin-bottom:2rem;
+}.imgIcon{
+	position:absolute;
+	top:-70px;
+	letf:50%;
+	width:150px;
+	height:130px;
+}.imgIco{
+	position:absolute;
+	top:-79px;
+	letf:50%;
+	width:150px;
+	height:160px;
+}.boton{
+	border-radius:20px;
+	padding:.4rem 2rem;
+	margin-bottom:1rem;
+	cursor:pointer;
+	color:whitesmoke;
+	font-size:1.2rem;
+	font-weight: bold;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+}.boton:hover,.regresar:hover{
+	transform:scale(1.1);
+}.boton1{
+	background:rgb(78, 196, 198);
+}.boton2{
+	background:rgb(129, 152, 201);
+}.boton3{
+	background:rgb(224, 60, 57);
+}
+}
+
+/* Tabletas grandes o dispositivos pequeños de escritorio (1025px - 1279px) */
+@media (min-width: 1025px) and (max-width: 1279px) {
+	/* Aquí van tus estilos específicos para tabletas grandes o dispositivos pequeños de escritorio */
+/* styles.css */
+.principal{
+	background-image:url('/img/menu.avif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:2rem;
+	width:100%;
+	height:100vh;
+}.regresar{
+	position:absolute;
+	top:20px;
+	left:20px;
+	width:auto;
+	height:auto;
+	font-size:1.2rem;
+	padding:.4rem 2rem;background:rgb(78, 196, 198);
+	border-radius:20px;border: 2px solid grey;color:whitesmoke;
+    cursor:pointer;transition:transform 1s ease-in-out;
+}.sectionMain{
+	position: relative;
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-end;
+	align-items: center;
+	border:3px solid grey;
+	width:13rem;
+	height:250px;
+	border-radius:10px;
+	background:rgb(226, 231, 233);
+	backdrop-filter:blur(4px);
+	box-shadow:0 10px 40px rgb(226, 231, 233);
+}.sectionMain h2{
+width:70%;
+font-size:1.8rem;
+color:black;
+text-align: center;
+margin-bottom:2rem;
+}.imgIcon{
+	position:absolute;
+	top:-70px;
+	letf:50%;
+	width:150px;
+	height:130px;
+}.imgIco{
+	position:absolute;
+	top:-79px;
+	letf:50%;
+	width:150px;
+	height:160px;
+}.boton{
+	border-radius:20px;
+	padding:.5rem 3rem;
+	margin-bottom:1rem;
+	cursor:pointer;
+	color:whitesmoke;
+	font-size:1rem;
+	font-weight: bold;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+}.boton:hover,.regresar:hover{
+	transform:scale(1.1);
+}.boton1{
+	background:rgb(78, 196, 198);
+}.boton2{
+	background:rgb(129, 152, 201);
+}.boton3{
+	background:rgb(224, 60, 57);
+}
+}
+/* Dispositivos de pantalla grande (1280px en adelante) */
+@media (min-width: 1280px) {
+.principal{
+	background-image:url('/img/menu.avif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:4rem;
+	width:100%;
+	height:100vh;
+}.regresar{
+	position:absolute;
+	top:20px;
+	left:20px;
+	width:auto;
+	height:auto;
+	font-size:1rem;
+	padding:.4rem 2rem;
+	background:rgb(78, 196, 198);
+	border-radius:20px;
+	border: 2px solid grey;
+	color:whitesmoke;
+    cursor:pointer;
+    transition:transform 1s ease-in-out;
+}.sectionMain{
+	position: relative;
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-end;
+	align-items: center;
+	border:3px solid grey;
+	width:15rem;
+	max-width:15rem;
+	height:300px;
+	max-height:300px;
+	border-radius:10px;
+	background:rgb(226, 231, 233);
+	backdrop-filter:blur(4px);
+	box-shadow:0 10px 40px rgb(226, 231, 233);
+}.sectionMain h2{
+width:70%;
+font-size:2rem;
+color:black;
+text-align: center;
+margin-bottom:3rem;
+}.imgIcon{
+	position:absolute;
+	top:-70px;
+	letf:50%;
+	width:150px;
+	height:130px;
+}.imgIco{
+	position:absolute;
+	top:-79px;
+	letf:50%;
+	width:150px;
+	height:160px;
+}.boton{
+	border-radius:20px;
+	padding:.5rem 3rem;
+	margin-bottom:1rem;
+	cursor:pointer;
+	color:whitesmoke;
+	font-size:1.4rem;
+	font-weight: bold;
+	border:1px solid grey;
+	transition:transform 1s ease-in-out;
+}.boton:hover,.regresar:hover{
+	transform:scale(1.1);
+}.boton1{
+	background:rgb(78, 196, 198);
+}.boton2{
+	background:rgb(129, 152, 201);
+}.boton3{
+	background:rgb(224, 60, 57);
+}
+
+}
+
