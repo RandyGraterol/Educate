@@ -1,6 +1,5 @@
   // Array de imágenes del tutorial
 const imagenesHiato = [
-    '/img/tutorialHiato/1.jpeg',
     '/img/tutorialHiato/2.jpeg',
     '/img/tutorialHiato/3.jpeg',
     '/img/tutorialHiato/4.jpeg',
