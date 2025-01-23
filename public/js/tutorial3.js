@@ -1,8 +1,8 @@
 const imagenesSopa = [
-    '/img/tutorialSopa/1.jpeg',
-    '/img/tutorialSopa/2.jpeg',
-    '/img/tutorialSopa/3.jpeg',
-    '/img/tutorialSopa/4.jpeg'
+    '/img/tutorialSopa/1.jpg',
+    '/img/tutorialSopa/2.jpg',
+    '/img/tutorialSopa/3.jpg',
+    '/img/tutorialSopa/4.jpg'
 ];
 
 document.addEventListener('DOMContentLoaded',()=>{

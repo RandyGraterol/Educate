@@ -1,10 +1,11 @@
 const imagenesSeparacion = [
-    '/img/tutorialSeparacion/1.jpeg',
-    '/img/tutorialSeparacion/2.jpeg',
-    '/img/tutorialSeparacion/3.jpeg',
-    '/img/tutorialSeparacion/4.jpeg',
-    '/img/tutorialSeparacion/5.jpeg',
-    '/img/tutorialSeparacion/6.jpeg'
+    '/img/tutorialSeparacion/1.jpg',
+    '/img/tutorialSeparacion/2.jpg',
+    '/img/tutorialSeparacion/3.jpg',
+    '/img/tutorialSeparacion/4.jpg',
+    '/img/tutorialSeparacion/5.jpg',
+    '/img/tutorialSeparacion/6.jpg',
+    '/img/tutorialSeparacion/7.jpg'
 ];
 
 document.addEventListener('DOMContentLoaded',()=>{

@@ -1,11 +1,12 @@
   // Array de imágenes del tutorial
 const imagenesHiato = [
-    '/img/tutorialHiato/2.jpeg',
-    '/img/tutorialHiato/3.jpeg',
-    '/img/tutorialHiato/4.jpeg',
-    '/img/tutorialHiato/5.jpeg',
-    '/img/tutorialHiato/6.jpeg',
-    '/img/tutorialHiato/7.jpeg'
+    '/img/tutorialHiato/1.jpg',
+    '/img/tutorialHiato/2.jpg',
+    '/img/tutorialHiato/3.jpg',
+    '/img/tutorialHiato/4.jpg',
+    '/img/tutorialHiato/5.jpg',
+    '/img/tutorialHiato/6.jpg',
+    '/img/tutorialHiato/7.jpg'
 ];
 
 
